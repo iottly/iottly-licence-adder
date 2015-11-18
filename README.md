@@ -14,3 +14,12 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
+# iottly-licence-adder
+
+This is a helper project, to apply licence template to all the iottly source files.
+See https://github.com/iottly/iottly-licence-adder/blob/master/addlicence.sh for usage.
+
+Run: 
+- `cd iottly-licence-adder`
+- `./addlicence.sh`
+before committing new files.
