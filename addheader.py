@@ -73,7 +73,7 @@ def writeheader(filename,header,removeheader):
         fdata = fdata[len(shebcontent):]
 
     hasDocktype  = False
-    if (fdata.startswith(docktypestr)):
+    if fdata.startswith(docktypestr) or fdata.startswith(docktypestr.lower()):
         hasDocktype = True
         docktypecontent = file(filename,"r+").readline()
         if isUTF:
