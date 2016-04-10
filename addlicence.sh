@@ -1,5 +1,5 @@
 #py
-./addheader.py apache2.py.tmpl ../ -fre '.*\.py$'
+./addheader.py apache2.py.tmpl ../ -fre '^((?!\.tpl).)*\.py$'
 
 #js
 ./addheader.py apache2.js.tmpl ../ -fre '^((?!Gruntfile).)*\.js$' -dre '^((?!(vendor)|(bower_components)|(iottly_console\/test)).)*$'
